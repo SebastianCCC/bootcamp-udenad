@@ -3,7 +3,7 @@
 const insertnumber = document.querySelector("#text-count");
 document.querySelector("#btn-count-increase").addEventListener("click", increase)
 document.querySelector("#btn-count-decrease").addEventListener("click", decrease)
-insertnumber.textContent = 5;
+insertnumber.textContent = 6;
 function increase() {
 	if(insertnumber.textContent < 10){
 		insertnumber.textContent = Number(insertnumber.textContent) + 1;
