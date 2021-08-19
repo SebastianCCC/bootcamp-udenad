@@ -1,8 +1,9 @@
 function hils(callaname){
-	callaname = "Bob";
 	console.log(`Hej med dig! \n${callaname}`);
 }
-hils();
+hils("Batman");
+hils("Robin");
+hils("Raven");
 document.addEventListener("DOMContentLoaded", () => {
 
 	// skriv din kode her...
