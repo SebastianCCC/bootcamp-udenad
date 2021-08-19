@@ -1,4 +1,7 @@
-// "DOMContentLoaded" event'en sørger for, at Javascriptet først kører når hele HTML dokumentet er indlæst
+function hils(){
+	console.log("Hej med dig!");
+}
+hils();
 document.addEventListener("DOMContentLoaded", () => {
 
 	// skriv din kode her...
